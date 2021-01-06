@@ -1,0 +1,170 @@
+.vl {
+  border-left: 6px solid #9e6735;
+  height: 100px;
+/*  position: absolute;*/
+  left: 12px;
+/*  margin-left: -3px;*/
+  top: 0;
+}
+.border{
+border: 2px solid #c9ad96; 
+    border-radius: 5px;
+}
+table, th, td {
+/*  border: 1px solid black;*/
+  border-collapse: collapse;
+}
+th, td {
+/*  padding: 15px;*/
+  text-align: left;
+}
+
+.rectangle {
+  height: 50px;
+  width: 100px;
+  background-color: #555;
+}
+.circle:hover
+{
+        background:#fad5b4;
+    color: aliceblue;
+}
+.button_large:hover
+{
+        background:#b57f4f;
+   
+}
+.circle{
+    height: 140px;
+    width: 150px;
+    border-radius: 50%;
+/*    border:2px solid #d3e5e6;*/
+    line-height: 140px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+   background: #FFF0BD;
+/*    animation: myanimation 10s infinite;*/
+
+}
+.circle:hover
+{
+        background:#fad5b4;
+
+}
+@keyframes myanimation {
+  0% {background-color: #b3f3f7;}
+  25%{background-color:yellow;}
+  50%{background-color:#98eb98;}
+  75%{background-color:#fad5b4;}
+  100% {background-color: #c9ef75;}
+}
+.img{
+    cursor:zoom-in;
+    cursor:-webkit-zoom-in;
+    cursor:-moz-zoom-in;
+    width:100px;
+}
+
+.how_it_works:hover
+{
+        background:#f4e5d9;
+
+}
+
+/*sidebar*/
+.content-section {
+  min-height: 2000px;
+}
+.sidebar-section {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+
+.sidebar-item {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	/* Position the items */
+/*
+	&:nth-child(2) { top: 25%; }
+	 &:nth-child(3) { top: 50%; }
+	 &:nth-child(4) { top: 75%; }
+*/
+}
+
+
+.make-me-sticky {
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    
+  padding: 0 15px;
+}
+
+
+
+/* Ignore This, just coloring */
+body {
+  background: #fff;
+}
+
+article {
+  background: #f1f1f1;
+  border-radius: 12px;
+  padding: 25px 0 600px;
+}
+
+
+.title-section, .content-section, .sidebar-section {
+  background: #fff;
+ 
+}
+
+.title-section {
+  text-align: center;
+  padding: 50px 15px;
+  margin-bottom: 30px;
+}
+
+.content-section h2 {
+  text-align: center;
+  margin: 0;
+  padding-top: 200px;
+}
+
+.sidebar-item {
+  text-align: center;
+  
+ 
+}
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body{
+    background: #EEE
+}
+
+    #str {
+   width: 800px;
+   padding: 20px;
+   height: auto;
+   font-family: sans-serif;
+   font-size: 40px;
+   margin: 200px auto;
+   color: #fff;
+   font-weight: bold;
+   background: #000
+}
+
+.rev-slidebg{
+   opacity: 0.5;  
+}
