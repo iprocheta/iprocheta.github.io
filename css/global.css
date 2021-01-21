@@ -566,15 +566,15 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 /* Red */
 
 a.button.button_red, a.tp-button.red {
-	background-color: #e7432b;
+	background-color: #c0392b;
 	color: #fff;
 }
 .button-stroke a.button.button_red, .button-stroke a.button.button_red .button_icon i, .button-stroke a.tp-button.red {
-	color: #e7432b;
-	border-color: #e7432b;
+	color: #c0392b;
+	border-color: #e74c3c;
 }
 .button-stroke a:hover.button.button_red, .button-stroke a:hover.tp-button.red {
-	background-color: #e7432b !important;
+	background-color: #c0392b !important;
 	color: #fff;
 }
 /* Blue */

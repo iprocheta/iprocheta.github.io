@@ -857,7 +857,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 /* Secondary menu wrapper */
 
 #Top_bar .secondary_menu_wrapper {
-	display: none;
+	display: block;
 }
 
 /* Banner */

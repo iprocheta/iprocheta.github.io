@@ -1759,6 +1759,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 ================================================== */
 
 #Header #menu-secondary-menu {
+	text-align: right;
 	z-index: 220;
 }
 #Header .secondary-menu {
@@ -2652,6 +2653,7 @@ body.header-stack:not(.template-slider) #Header {
 .post-nav {
 	padding: 10px 10px 4px 130px;
 	margin-bottom: 20px;
+  
 	background-image: url(../../../images/stripes/stripes_5_b.png);
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
