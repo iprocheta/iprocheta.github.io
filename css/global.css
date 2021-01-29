@@ -253,7 +253,7 @@ iframe {
 	max-width: 98%;
 	max-width: calc( 100% - 20px);
 }
-.with_aside .four.columns {
+.with_aside .four.columns.is-sticky {
 	float: right;
 	margin: 0;
 }
@@ -272,9 +272,10 @@ iframe {
 .aside_both .sidebar.columns {
 	width: 18%;
 }
-.aside_both .sidebar-1 {
+.aside_both .sidebar-1.is-sticky {
 	float: left !important;
 	margin-left: -79%;
+    position: fixed; 
 }
 /* Column ---------------------------------------------------------------------------- */
 
@@ -16094,6 +16095,7 @@ body.mobile-side-slide {
 }
 .aside_both .sidebar.sidebar-1 {
 	margin-left: -82%;
+    position: fixed;
 }
 /* Before After | TwentyTwenty plugin ------------------------------------------------ */
 
@@ -18233,6 +18235,7 @@ body.nice-scroll:not(.layout-boxed) {
 }
 .with_aside.aside_both .sidebar-1 .widget-area {
 	border-right-width: 1px
+    
 }
 .with_aside.aside_both .sidebar-1 .widget-area:before {
 	right: 0
